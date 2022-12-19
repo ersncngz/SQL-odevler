@@ -17,3 +17,11 @@
 ## 2 - SELECT country FROM country WHERE country LIKE '_____n'
 ## 3 - SELECT title FROM film WHERE title ILIKE '%T%%T%%T%%T%'
 ## 4 - SELECT * FROM film WHERE title LIKE '%C' AND length > 90 AND rental_rate = 2.99G
+
+# ODEV 4 
+
+## 1 - SELECT DISTINCT replacement_cost FROM film
+## 2 - SELECT COUNT(*) replacement_cost FROM film
+## 3 - SELECT COUNT(title) FROM film WHERE title LIKE 'T%' AND rating = 'G'
+## 4 - SELECT COUNT (country) FROM country WHERE country LIKE '_____'
+## 5 - SELECT COUNT (city) FROM city WHERE city ILIKE '%R'
