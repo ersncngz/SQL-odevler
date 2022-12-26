@@ -43,3 +43,14 @@
 ## 2 - SELECT replacement_cost, COUNT(*) FROM film GROUP BY replacement_cost HAVING COUNT(*)> 50
 ## 3 SELECT store_id, COUNT(*) FROM customer GROUP BY store_id
 ## 4 - SELECT country_id,COUNT(country_id) FROM city GROUP BY country_id  ORDER BY COUNT(country_id) DESC LIMIT 1;
+
+## ODEV 8
+## 1 - CREATE TABLE employee( id INT,name VARCHAR(50),birthday DATE,email VARCHAR(100) )
+## 2 - UPDATE employee SET name = 'Ersan', birthday = '1997-04-15', email = 'ersan.cengiz16@gmail.com' WHERE id= 1
+## 3 - DELETE FROM employee WHERE id = 2
+
+
+
+	
+	
+	
