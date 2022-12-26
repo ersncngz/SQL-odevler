@@ -33,7 +33,13 @@
 ## 3 - SELECT * FROM customer WHERE store_id = '1' ORDER BY last_name DESC LIMIT 4;
 
 # ODEV 6
-## 1 SELECT AVG(rental_rate) FROM film
-## 2 SELECT COUNT(*) FROM film WHERE title LIKE 'C%'
-## 3 SELECT MAX(length) FROM film
-## 4 WHERE rental_rate = 0.99SELECT COUNT(replacement_cost) FROM filmWHERE length > 150
+## 1 - SELECT AVG(rental_rate) FROM film
+## 2 - SELECT COUNT(*) FROM film WHERE title LIKE 'C%'
+## 3 - SELECT MAX(length) FROM film
+## 4 - WHERE rental_rate = 0.99SELECT COUNT(replacement_cost) FROM filmWHERE length > 150
+
+# ODEV 7
+## 1 - SELECT rating FROM film GROUP BY rating;
+## 2 - SELECT replacement_cost, COUNT(*) FROM film GROUP BY replacement_cost HAVING COUNT(*)> 50
+## 3 SELECT store_id, COUNT(*) FROM customer GROUP BY store_id
+## 4 - SELECT country_id,COUNT(country_id) FROM city GROUP BY country_id  ORDER BY COUNT(country_id) DESC LIMIT 1;
